@@ -1,0 +1,23 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "pylint-header-checker"
+version = "0.0.1"
+authors = [
+  { name="Michael Robinson", email="merobi@gmail.com" },
+]
+description = "A header checker plugin for Pylint"
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/merobi-hub/pylint-header-checker"
+"Bug Tracker" = "https://github.com/merobi-hub/pylint-header-checker/issues"
